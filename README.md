@@ -180,7 +180,7 @@ Notice that we alias the function name `dot` to `c_dot` here. This is not necess
 
 Now it's time to checkout the modification of `setup.py`. We only declare one more extension.
 
-```
+```python
 # some previous code in step-2 ...
 
 ext_modules.append(
