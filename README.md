@@ -269,7 +269,7 @@ cython:  (250078.6439168099, 0.05468893051147461)
 cpp:     (250078.6439168099, 0.0352931022644043)
 
 # the hidden boss, which not cover in this tutorial
-pypy:    (250312.47666717478, 0.004452943801879883)
+pypy:    (250078.6439168099, 0.004452943801879883)
 ```
 
 And once again, the day is end .Thank you, the Powerpuff girls！
