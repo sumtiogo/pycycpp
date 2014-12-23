@@ -12,6 +12,16 @@ ext_modules.append(
     )
 )
 
+ext_modules.append(
+    Extension(
+        'cydemo.cpp_imp',
+        sources=[
+            'cydemo/cpp_imp_wrapper.pyx',
+            'extension/lib/dot.cpp'],
+        include_dirs=['extension/include'],
+        language='c++'
+    )
+)
 
 setup(
     name='CyDemo',
